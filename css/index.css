@@ -1,0 +1,303 @@
+@CHARSET "UTF-8";
+*{
+	margin: 0;
+	padding: 0;
+}
+html, body{
+  	font-family: 'Montserrat', sans-serif;
+    font-size: 100%;
+  	 background: #FFf;
+  	 -webkit-font-smoothing: antialiased;
+}
+body a{
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+ul li,a{
+	list-style: none;
+}
+a:hover{
+	text-decoration: none;
+}
+/*----start-container----*/
+.container{
+	width:70%;
+}
+.bg{
+	background:url(../images/bei3.jpg) no-repeat 0px 0px;
+	background-attachment: fixed;
+	background-size: cover;
+}
+#article{
+	margin: 20px 0 30px;
+}
+/*footer*/
+.footer-wrap{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 0.85em;
+	border-radius: 3px;
+	color: #504d50;
+	background: #6cc;
+}
+.footer-wrap p{
+	margin: 0;
+}
+
+/*sidebar*/
+.sidebar{
+	position: fixed;
+	bottom: 60px;
+	right: 70px;
+	display: none;
+}
+.sidebar a{
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	margin-bottom: 10px;
+	display: block;
+	background: #555;
+	font-size: 1.4em;
+	color: #fff;
+	
+}
+.sidebar a.return-top {
+	font-weight: 300;
+}
+.QR-code{
+	display: none;
+	position: fixed;
+	right: 70px;
+	bottom: 165px;
+}
+.QR-code img{
+	width: 150px;
+	height: 150px;
+}
+/*...*/
+
+.texts p:nth-child(1) {
+	-webkit-animation: animations 0.5s ease-out 0.5s backwards;
+	-moz-animation: animations 0.5s ease-out 0.5s backwards;
+	-o-animation: animations 0.5s ease-out 0.5s backwards;
+	-ms-animation: animations 0.5s ease-out 0.5s backwards;
+	animation: animations 0.5s ease-out 0.5s backwards;
+}
+
+.texts p:nth-child(2) {
+	-webkit-animation: animations 1s ease-out 0.8s backwards;
+	-moz-animation:animations 1s ease-out 0.8s backwards;
+	-o-animation: animations 1s ease-out 0.8s backwards;
+	-ms-animation:animations 1s ease-out 0.8s backwards;
+	animation: animations 1s ease-out 0.8s backwards;
+}
+
+.texts p:nth-child(3) { 
+	-webkit-animation: animations2 2s ease-in-out 3s backwards;
+	-moz-animation: animations2 2s ease-in-out 3s backwards;
+	-o-animation: animations2 2s ease-in-out 3s backwards;
+	-ms-animation: animations2 2s ease-in-out 3s backwards;
+	animation: animations2 2s ease-in-out 3s backwards;
+}
+
+@-webkit-keyframes animations {
+	0% {
+		-webkit-transform: translate(0);
+		opacity: 0;
+	}
+	/*50% {
+		-webkit-transform: translate(30px);
+		opacity: .5;
+	}*/
+	100% {
+		-webkit-transform: translate(60px);
+		opacity: 1;
+	}
+}
+
+@-moz-keyframes animations {
+	0% {
+		-moz-transform: translate(0);
+		opacity: 0;
+	}
+	/*50% {
+		-moz-transform: translate(30px);
+		opacity: .5;
+	}*/
+	100% {
+		-moz-transform: translate(60px);
+		opacity: 1;
+	}
+}
+
+@-o-keyframes animations {
+	0% {
+		-o-transform: translate(0);
+		opacity: 0;
+	}
+	/*50% {
+		-o-transform: translate(30px);
+		opacity: .5;
+	}*/
+	100% {
+		-o-transform: translate(60px);
+		opacity: 1;
+	}
+}
+
+@-ms-keyframes animations {
+	0% {
+		-ms-transform: translate(0);
+		opacity: 0;
+	}
+	/*50% {
+		-ms-transform: translate(30px);
+		opacity: .5;
+	}*/
+	100% {
+		-ms-transform: translate(60px);
+		opacity: 1;
+	}
+}
+
+@keyframes animations {
+	0% {
+		transform: translate(0);
+		opacity: 0;
+	}
+	/*50% {
+		transform: translate(30px);
+		opacity: .5;
+	}*/
+	100% {
+		transform: translate(60px);
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes animations2 {
+	0% {
+		opacity: 0;
+	}
+	40% {
+		opacity: .8;
+	}
+	45% {
+		opacity: .3;
+	}
+	50% {
+		opacity: .8;
+	}
+	55% {
+		opacity: .3;
+	}
+	60% {
+		opacity: .8;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@-moz-keyframes animations2 {
+	0% {
+		opacity: 0;
+	}
+	40% {
+		opacity: .8;
+	}
+	45% {
+		opacity: .3;
+	}
+	50% {
+		opacity: .8;
+	}
+	55% {
+		opacity: .3;
+	}
+	60% {
+		opacity: .8;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@-o-keyframes animations2 {
+	0% {
+		opacity: 0;
+	}
+	40% {
+		opacity: .8;
+	}
+	45% {
+		opacity: .3;
+	}
+	50% {
+		opacity: .8;
+	}
+	55% {
+		opacity: .3;
+	}
+	60% {
+		opacity: .8;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@-ms-keyframes animations2 {
+	0% {
+		opacity: 0;
+	}
+	40% {
+		opacity: .8;
+	}
+	45% {
+		opacity: .3;
+	}
+	50% {
+		opacity: .8;
+	}
+	55% {
+		opacity: .3;
+	}
+	60% {
+		opacity: .8;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes animations2 {
+	0% {
+		opacity: 0;
+	}
+	40% {
+		opacity: .8;
+	}
+	45% {
+		opacity: .3;
+	}
+	50% {
+		opacity: .8;
+	}
+	55% {
+		opacity: .3;
+	}
+	60% {
+		opacity: .8;
+	}
+	100% {
+		opacity: 1;
+	}
+}

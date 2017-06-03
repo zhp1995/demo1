@@ -1,0 +1,155 @@
+@CHARSET "UTF-8";
+/*header  */
+
+.logo{
+	float: left;
+	margin-top: 0.6em;
+}
+.login{
+	float: right;
+	color: #ddd;
+	font-size: 0.9em;
+	margin: 1.8em 1.5em;
+}
+
+
+/*----navbar-nav----*/
+.top-header{
+	padding: 0.3em 0em;
+	background: #222;
+}
+.logo a{
+	display:block;
+}
+
+/*---- benner ----*/
+.banner{
+	/*height: 345px;*/
+}
+.banner-info{
+	height: 345px;
+	background:url(../images/b2.jpg) no-repeat;
+	background-size: cover;
+	position: relative;
+	margin-top: 5.1em;
+}
+#myCarousel{
+	padding-top: 5em;
+}
+#myCarousel #banner{
+	border-radius: 3px;
+}
+#banner .item img{
+	width: 100%;
+	height: 400px;
+}
+.carousel-brief {
+    width: 40%;
+    top: 10%;
+    left: 0%;
+    height: 100px;
+    line-height: 24px;
+    font-size: 0.9em;
+}
+.carousel-brief p:nth-of-type(1){
+	color: rgba(110, 241, 44, 0.8);
+}
+
+.carousel-brief p:nth-of-type(2){
+    color: rgba(253, 253, 11, 0.8);
+}
+
+.texts p{
+    font-family: 'Open Sans', sans-serif;
+    -webkit-transform: translate(60px);
+	-moz-transform: translate(60px);
+	-o-transform: translate(60px);
+	-ms-transform: translate(60px);
+	transform: translate(60px);
+}
+.carousel-indicators li{
+	width: 9px;
+	height: 9px;
+	border: 1px solid #e9cc73;
+}
+.carousel-indicators li.active{
+	width: 9px;
+	height: 9px;
+	margin-bottom: 1px;
+	background-color: #facc61;
+}
+a#left-btn, a#right-btn{
+	position: absolute;
+	top: 60%;
+	width: 30px;
+	height: 30px;
+	display: none;
+	overflow: hidden;
+	color: rgba(168, 162, 162, 0.5);
+	border-radius: 50%;
+	font-size: 1.5em;
+	text-align:center;
+	line-height:30px;
+}
+a#left-btn{
+	left: 15px;
+}
+a#right-btn{
+	right: 15px;
+}
+#myCarousel:hover #left-btn{
+	display: block;
+}
+#myCarousel:hover #right-btn{
+	display: block;
+}
+#myCarousel #left-btn:hover{
+	color: rgba(168, 162, 162, 0.3);
+}
+#myCarousel #right-btn:hover{
+	color: rgba(168, 162, 162, 0.3);
+}
+#myCarousel ol{
+	margin-bottom: 2%;
+}
+.box{
+	width: 100%;
+}
+
+
+nav#menu{
+	z-index: 100;
+	width: 100%;
+	height: 45px;
+	min-height: 45px;
+	background: #222;
+	opacity: 0.8;
+	border: none;
+	border-radius: 3px;
+	margin-bottom: 0;
+	position: absolute;
+	bottom: 0;
+}
+#menu ul li a{
+	font-size: 0.9em;
+	padding: 0px 15px;
+	line-height: 46px;
+	cursor: pointer;
+	border-radius: 3px;
+}
+#menu ul li a:hover {
+	color: #fff;
+	background: #000;
+}
+#menu ul{
+	padding: 0;
+	border-radius: 3px;
+	margin-left: 10px;
+}
+.nav-active {
+	background: #000;
+	color: #fff;
+}
+.clearpadding{
+	padding: 0;
+}
